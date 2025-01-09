@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "wahlumfragen-webhook",
+  "version": "1.0.0",
+  "description": "get polls from dawum.de and send them to discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "UnbreakCode",
+  "license": "ISC",
+  "dependencies": {
+    "german-election-polls": "^1.1.7",
+    "node-fetch": "^3.3.2"
+  }
+}
